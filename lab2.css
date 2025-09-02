@@ -1,0 +1,142 @@
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  background-color: #1565c0;
+  padding: 0.8em;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  padding: 1em 4em 1em 2em;
+}
+
+.logo {
+  height: 60px;
+}
+
+.nav-section {
+  text-align: center;
+  padding: 1em;
+}
+
+.nav-section a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-section p {
+  font-size: 0.75em;
+  color: #555;
+}
+
+.btn-red {
+  background-color: #e74c3c;
+  padding: 0.7em 2em;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.banner {
+  background-color: #1565c0;
+  text-align: center;
+  color: white;
+  padding: 0.5em;
+  font-weight: bold;
+}
+
+.main-content {
+  display: flex;
+  padding: 1em 10%;
+  gap: 5em;
+}
+
+.video-container {
+  flex: 1 1 45%;
+}
+
+.greetings {
+  flex: 1 1 45%;
+}
+
+.greetings p {
+  text-align: justify;
+}
+
+.breadcrumb {
+  padding: 0.5em 10%;
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* ===================== PROGRAMMES CONTENT ===================== */
+/* Container for the Programmes page content */
+.programmes-content {
+  padding: 2em 10%; /* Space around content */
+}
+
+.programmes-content h2 {
+  font-size: 1.4em; /* Section heading size */
+  font-weight: bold; /* Bold heading */
+  margin-bottom: 1em; /* Space below heading */
+}
+
+.programmes-content ul {
+  list-style: disc; /* Use bullet points */
+  padding-left: 1.5em; /* Indent list */
+}
+
+.programmes-content li {
+  margin: 0.5em 0; /* Space between list items */
+}
+
+.programmes-content a {
+  text-decoration: none; /* Remove underline from links */
+  color: #1565c0; /* Blue link color */
+}
+
+.programmes-content a:hover {
+  text-decoration: underline; /* Underline on hover for feedback */
+}
+
+/* ===================== PROGRAMMES BANNER ===================== */
+/* Large black banner on the Programmes page */
+.programmes-banner {
+    background-color: black;
+    color: white;
+    font-size: 48px;       
+    font-weight: bold;
+    text-align: left;
+    padding: 60px 40px;
+    display: flex;
+    align-items: center;
+    font-family: 'Georgia', serif;
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    position: relative;      
+}
+
+/* Red vertical line on the left of the programmes banner */
+.programmes-banner::before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 60%;              
+    background-color: red;
+    margin-right: 20px;
+}
+
